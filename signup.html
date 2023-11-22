@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            SignUp Page
+        </title>
+    </head>
+    <body>
+        <header>
+            <center>
+                <h1><font color="Green">Welcome to 360Digrii</font></h1>
+            </center>
+            <p align="center">
+                <a href="home.html">Home</a> |
+                <a href="about.html">About</a> |
+                <a href="contact.html">Contact</a> |
+                <a href="branches.html">Branches</a> |
+                <a href="courses.html">Courses</a> |
+                <a href="students.html">Placed students</a> |
+                <a href="companies.html">Upcoming Companies</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="signin.html">SignIn</a> |
+                <a href="#">SignUp</a> 
+            </p>
+        </header>
+        <hr>
+        <form name="signup form" action="url" method="post">
+            <table align="center" cellpadding="5px" cellspacing="5px" bgcolor="pink">
+                <caption><font color="blue"><h2>Registration Page</h2></font></caption>
+                <tr>
+                    <td><label for="name">Full Name</label></td>
+                    <td><input type="text" id="name" placeholder="Enter your name" ame="name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="sid">Student ID</label></td>
+                    <td><input type="number" id="sid" placeholder="Enter Student Id" name="stdid"></td>
+                </tr>
+                <tr>
+                    <td><label for="pass">Password</label></td>
+                    <td><input type="password" id="pass" placeholder="Enter a Strong password" name="pass" required></td>
+                </tr>
+                <tr>
+                    <td><label for="conp">Confirm Password</label></td>
+                    <td><input type="password" id="conp" placeholder="Reenter password" name="pass1" required></td>
+                </tr>
+                <tr>
+                    <td><label>Courses</label></td>
+                    <td><input type="checkbox">C<input type="checkbox">Cpp<input type="checkbox">Java</td>
+                </tr>
+                <tr>
+                    <td><label>Class Mode</label></td>
+                    <td><input type="radio" name="mode">Online<input type="radio" name="mode">Offline</td>
+                </tr>
+                <tr>
+                    <td><label>Demo Date</label></td>
+                    <td><input type="date" name="date"></td>
+                </tr>
+                <tr>
+                    <td><label for="age">Age</label></td>
+                    <td><input type="number" id="age" placeholder="enter your age" name="age"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" id="email" placeholder="enter your email address" name="email" required></td>
+                </tr>
+                <tr>
+                    <td><label>Qualification</label></td>
+                    <td>
+                        <select name="branch">
+                            <option>Choose an option</option>
+                            <option>CSE</option>
+                            <option>ECE</option>
+                            <option>EEE</option>
+                            <option>MECH</option>
+                            <option>CIVIL</option>
+                            <option>BSC</option>
+                            <option>MCA</option>
+                            <option>BCom</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Resume</label></td>
+                    <td><input type="file" name="resume"></td>
+                </tr>
+                <tr>
+                    <td><label for="add">Address</label></td>
+                    <td><textarea id="add" placeholder="Enter your address" name="address"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="url">LinkedIn URL</label></td>
+                    <td><input type="url" id="url" placeholder="linkedin address" name="linkedinurl"></td>
+                </tr>
+                <tr>
+                    <td align="center"><input type="submit" value="Submit"></td>
+                    <td >&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="Reset"></td>
+                </tr>
+            </table>
+        </form>
+        <hr>
+        <footer>
+            <center>
+                <h4><font color="blue">copyright@360digrii</font></h4>
+            </center>
+        </footer>
+    </body>
+</html>
